@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add An Animal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title text-center mt-5 mb-4">Add an animal</h1>
+      <form class="animal-form">
+        <div class="input-group mb-3 animal-group">
+          <span
+            class="input-group-text bg-success text-white"
+            id="basic-addon1 animal-icon"
+            ><i class="fas fa-paw"></i
+          ></span>
+          <input
+            type="text"
+            class="form-control animal-input"
+            placeholder="Animal Name"
+            aria-label="Animal Name"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+
+        <div class="input-group mb-3 breed-group">
+          <span
+            class="input-group-text bg-success text-white"
+            id="basic-addon1 breed-icon"
+            ><i class="fas fa-hippo"></i
+          ></span>
+          <input
+            type="text"
+            class="form-control breed-input"
+            placeholder="Animal Breed"
+            aria-label="Animal Breed"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+
+        <div class="input-group mb-3">
+          <label
+            class="input-group-text bg-success text-white"
+            for="inputGroupSelect01"
+            ><i class="fas fa-feather-alt"></i
+          ></label>
+          <select class="form-select type-select" id="inputGroupSelect01">
+            <option selected>Animal Type</option>
+            <option class="dog-option" value="dog">Dog</option>
+            <option class="cat-option" value="cat">Cat</option>
+            <option class="bird-option" value="bird">Bird</option>
+            <option class="rabbit-option" value="rabbit">Rabbit</option>
+          </select>
+        </div>
+
+        <div class="button-grp text-center">
+          <input
+            type="submit"
+            class="submit-btn bg-success text-white w-100"
+            placeholder="Submit"
+          />
+        </div>
+      </form>
+
+      <div class="output-area row mt-5 mb-5"></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+* {
+  font-family: "Gemunu Libre", sans-serif;
+}
+
+.title {
+  font-weight: 700 !important;
+  text-transform: uppercase;
+}
+
+.submit-btn {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
